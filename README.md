@@ -14,7 +14,7 @@ A continuación se dan ejemplos de uso de las formulas
 ## Cálculos del valor futuro: 
 
 Para ilustrar el ejemplo, se tiene el siguiente ejemplo 
-$VA$=$1,000.00
+$VA$=$1,000.00 
 $i$=24.00% anualizado
 $r$=2.00% mensual
 $t$=7 meses 
