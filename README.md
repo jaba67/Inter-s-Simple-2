@@ -45,7 +45,7 @@ valorfuturo=1140
 tasaperiodo=0.02
 nPeriodo=7
 # calculamos el valor inicial:
-valorinicial=valoracutal(VF=valorfuturo,r=tasaperiodo,t=nPeriodo)
+valorinicial=valoractual(VF=valorfuturo,r=tasaperiodo,t=nPeriodo)
 # imprimimos el resultado:
 valorinicial
 ```
