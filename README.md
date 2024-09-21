@@ -11,7 +11,7 @@ source("https://raw.githubusercontent.com/jaba67/Inter-s-Simple-2/main/FormulasI
 ```
 
 A continuación se dan ejemplos de uso de las formulas
-## Cálculos del valor futuro
+## Cálculos del valor futuro:
 
 Para ilustrar el ejemplo, se tiene el siguiente ejemplo 
 $VA$=$1,000.00
