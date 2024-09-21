@@ -44,7 +44,7 @@ Se realizan los calculos:
 # creamos los objetos de entrada:
 valorfuturo=1140
 tasaperiodo=0.02
-nPeriodo=7
+t=7
 # calculamos el valor inicial:
 valorinicial=VA(VF=valorfuturo,r=tasaperiodo,t=nPeriodo)
 # imprimimos el resultado:
@@ -62,7 +62,7 @@ Se realizan los calculos:
 # creamos los objetos de entrada:
 valorfuturo=1140.00
 valoractual=1000.00
-nPeriodo=7
+t=7
 # se calcula la tasa de interés
 valortasa=nPeriodo(VF=valorfuturo,VA=valoractual,t=nPeriodo)
 # Imprimimos el resultado
@@ -81,7 +81,7 @@ Se realizan los calculos:
 # creamos los objetos de entrada:
 valorfuturo=1140
 valoractual=1000
-tasaperiodo=0.02
+r=0.02
 # calculamos el periodo de tiempo:
 valortasa=tasaperiodo(VF=valorfuturo,VA=valoractual,r=tasaperiodo)
 ```
