@@ -84,7 +84,7 @@ valoractual=1000
 r=0.02
 t=7
 # calculamos el periodo de tiempo:
-valortasa=t(VF=valorfuturo,VA=valoractual,r=tasaperiodo)
+valorperiodo=t(VF=valorfuturo,VA=valoractual,r=tasaperiodo)
 # imprimimos el resultado
 valorperiodo
 ```
