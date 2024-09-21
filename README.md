@@ -33,6 +33,7 @@ valorfuturo
 ```
 
 ## Cálculos de valor inicial:
+$VA$=$1,000.00
 $VF$=$1140.00
 $i$=24.00% anualizado
 $r$=2.00% anualizado
