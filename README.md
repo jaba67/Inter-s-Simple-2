@@ -64,7 +64,7 @@ valorfuturo=1140.00
 valoractual=1000.00
 t=7
 # se calcula la tasa de interés
-valortasa=nPeriodo(VF=valorfuturo,VA=valoractual,t=nPeriodo)
+valortasa=r(VF=valorfuturo,VA=valoractual,t=nPeriodo)
 # Imprimimos el resultado
 valortasa
 ```
@@ -83,5 +83,5 @@ valorfuturo=1140
 valoractual=1000
 r=0.02
 # calculamos el periodo de tiempo:
-valortasa=tasaperiodo(VF=valorfuturo,VA=valoractual,r=tasaperiodo)
+valortasa=t(VF=valorfuturo,VA=valoractual,r=tasaperiodo)
 ```
