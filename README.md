@@ -40,6 +40,7 @@ $t$=7 meses
 
 ```{r}
 # creamos los objetos de entrada:
+valoractual=1000
 valorfuturo=1140
 tasaperiodo=0.02
 nPeriodo=7
