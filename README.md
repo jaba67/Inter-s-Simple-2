@@ -32,7 +32,7 @@ valorfuturo=valorfinalSimple(VA=valoractual,r=tasaperiodo,t=nPeriodo)
 valorfuturo
 ```
 
-#### Cálculos de valor inicial:
+## Cálculos de valor inicial:
 $VF$=$1140.00
 $i$=24.00% anualizado
 $r$=2.00% anualizado
