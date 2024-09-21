@@ -33,7 +33,7 @@ valorfuturo
 ```
 
 #### Cálculos de valor inicial:
-$VF$=1140.00
+$VF$=$1140.00
 $i$=24.00% anualizado
 $r$=2.00% anualizado
 $t$=7 meses 
@@ -43,6 +43,19 @@ $t$=7 meses
 valorfuturo=1140
 tasaperiodo=0.02
 nPeriodo=7
-# calculamos el valor final: 
+# calculamos el valor inicial:
+valorinicial=valoracutal(VF=valorfuturo,r=tasaperiodo,t=nPeriodo)
+# imprimimos el resultado:
+valorinicial
+```
+
+##### Cálculos de la tasa de interes:
+$VF$=$1140.00
+$i$=24.00% anualizado
+$r$=2.00% anualizado
+$t$=7 meses
+
+```{r}
+# creamos los objetos de entrada:
 
 ```
