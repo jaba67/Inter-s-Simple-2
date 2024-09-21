@@ -79,11 +79,14 @@ Se realizan los calculos:
 
 ```{r}
 # creamos los objetos de entrada:
-valorfuturo=1140
-valoractual=1000
-r=0.02
+valorfuturo <- 1140
+valoractual <- 1000
+r <- 0.02
+
 # calculamos el periodo de tiempo:
-valorperiodo=(VF=valorfuturo VA=valoractual r=tasaperiodo)
+n <- log(valorfuturo / valoractual) / log(1 + r)
+
 # imprimimos el resultado
-valorperiodo
+n
+
 ```
