@@ -16,7 +16,7 @@ A continuación se dan ejemplos de uso de las formulas
 Para ilustrar el ejemplo, se tiene el siguiente ejemplo 
 $VA$=$1,000.00
 $i$=24.00% anualizado
-$r$=2.00% anualizado
+$r$=2.00% mensual
 $t$=7 meses 
 
 Se realizan los calculos:
@@ -35,7 +35,7 @@ valorfuturo
 ## Cálculos de valor inicial:
 $VF$=$1140.00
 $i$=24.00% anualizado
-$r$=2.00% anualizado
+$r$=2.00% mensual
 $t$=7 meses 
 
 Se realizan los calculos:
@@ -73,6 +73,7 @@ valortasa
 $VF$=$1140.00
 $VA$=$1000.00
 $i$=24.00% anualizado
+$r$=2.00% mensual
 
 Se realizan los calculos:
 
@@ -82,5 +83,5 @@ valorfuturo=1140
 valoractual=1000
 tasaperiodo=0.02
 # calculamos el periodo de tiempo:
-valortasa=tasaperiodo(VF=valorfuturo,VA=valoractual,t=nPeriodo)
+valortasa=tasaperiodo(VF=valorfuturo,VA=valoractual,r=tasaperiodo)
 ```
