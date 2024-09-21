@@ -7,7 +7,7 @@ En este repisotorio se agrupan las actividades realizadas en la materia de Matem
 Con el siguiente código, puede usted cargar las funciones relativas a los calculos de interes simple:
 
 ```{r}
-source("https://raw.githubusercontent.com/jaba67/Inter-s-Simple-2/main/FormulasInteresSimple.R")
+source("https://raw.githubusercontent.com/jaba67/Inter-s-Simple-2/main/FormulasInteresSimple.R") 
 ```
 
 A continuación se dan ejemplos de uso de las formulas
