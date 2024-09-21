@@ -43,6 +43,6 @@ $t$=7 meses
 valorfuturo=1140
 tasaperiodo=0.02
 nPeriodo=7
-# calculamos el valor final:
+# calculamos el valor final: 
 
 ```
