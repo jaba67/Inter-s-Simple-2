@@ -31,3 +31,11 @@ valorfuturo=valorfinalSimple(VA=valoractual,r=tasaperiodo,t=nPeriodo)
 # Imprimimos el resultado:
 valorfuturo
 ```
+
+#### Cálculos de valor inicial:
+
+
+
+```{r}
+# creamos los objetos de entrada 
+```
