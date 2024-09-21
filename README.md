@@ -38,9 +38,10 @@ $i$=24.00% anualizado
 $r$=2.00% anualizado
 $t$=7 meses 
 
+Se realizan los calculos:
+
 ```{r}
 # creamos los objetos de entrada:
-valoractual=1000
 valorfuturo=1140
 tasaperiodo=0.02
 nPeriodo=7
@@ -52,11 +53,34 @@ valorinicial
 
 ## Cálculos de la tasa de interes:
 $VF$=$1140.00
-$i$=24.00% anualizado
-$r$=2.00% anualizado
+$VA$=$1000.00
 $t$=7 meses
+
+Se realizan los calculos:
 
 ```{r}
 # creamos los objetos de entrada:
+valorfuturo=1140.00
+valoractual=1000.00
+nPeriodo=7
+# se calcula la tasa de interés
+valortasa=nPeriodo(VF=valorfuturo,VA=valoractual,t=nPeriodo)
+# Imprimimos el resultado
+valortasa
+```
 
+## Cálculos del periodo de tiempo:
+$VF$=$1140.00
+$VA$=$1000.00
+$i$=24.00% anualizado
+
+Se realizan los calculos:
+
+```{r}
+# creamos los objetos de entrada:
+valorfuturo=1140
+valoractual=1000
+tasaperiodo=0.02
+# calculamos el periodo de tiempo:
+valortasa=tasaperiodo(VF=valorfuturo,VA=valoractual,t=nPeriodo)
 ```
