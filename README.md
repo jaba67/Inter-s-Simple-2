@@ -33,9 +33,16 @@ valorfuturo
 ```
 
 #### Cálculos de valor inicial:
-
-
+$VF$=1140.00
+$i$=24.00% anualizado
+$r$=2.00% anualizado
+$t$=7 meses 
 
 ```{r}
-# creamos los objetos de entrada 
+# creamos los objetos de entrada:
+valorfuturo=1140
+tasaperiodo=0.02
+nPeriodo=7
+# calculamos el valor final:
+
 ```
