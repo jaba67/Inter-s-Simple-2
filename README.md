@@ -84,4 +84,6 @@ valoractual=1000
 r=0.02
 # calculamos el periodo de tiempo:
 valortasa=t(VF=valorfuturo,VA=valoractual,r=tasaperiodo)
+# imprimimos el resultado
+valorperiodo
 ```
