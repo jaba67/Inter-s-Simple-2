@@ -9,7 +9,7 @@ Con el siguiente código, puede usted cargar las funciones relativas a los calcu
 ```{r}
 source("https://raw.githubusercontent.com/jaba67/Inter-s-Simple-2/refs/heads/main/FormulasInteresSimple.R") 
 ```
-
+ 
 A continuación se dan ejemplos de uso de las formulas
 ## Cálculos del valor futuro: 
 
